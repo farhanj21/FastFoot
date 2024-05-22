@@ -1,0 +1,154 @@
+﻿#wholescreen {
+    background-color: #2E3034;
+}
+
+#searchBar {
+    margin-top: 5px;
+    width: 500px;
+    height: 30px;
+}
+
+#navBar {
+    height: 60px;
+    background-color: #1B1C21;
+    border: 1px solid #313131;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#searchPlace {
+    color: #A4A4A4;
+    background-color: #313131;
+    border: #313131;
+}
+
+    #searchPlace::placeholder {
+        color: #A4A4A4;
+    }
+
+.left-column {
+    float: left;
+    width: 15%;
+    height: 100vh;
+    background-color: #1B1C21;
+    border: 1px solid #313131;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.right-column {
+    float: left;
+    width: 85%;
+    background-color: #2E3034;
+    border: 1px solid #313131;
+    /* box-sizing: border-box; */
+    /* height: 100vh; */
+}
+
+/* Clearfix to fix float issues */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#menuButton {
+    margin-top: 0px;
+    color: #A4A4A4;
+}
+
+#menuHeading {
+    padding: 20%;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    margin-left: -1rem;
+    color: #A4A4A4;
+    font-size: large;
+}
+
+#menuButton:hover {
+    color: #ffffff;
+}
+
+#fHeading {
+    padding: 10%;
+    padding-bottom: 0px;
+    margin-left: 0rem;
+    color: #A4A4A4;
+    font: bold 40px verdana;
+    align-self: center;
+    text-shadow: 2px 2px 5px grey;
+    font-size: 30px;
+}
+
+
+#leagueButton {
+    color: #A4A4A4;
+    background-color: #1B1C21;
+    border: 1px solid #1B1C21;
+}
+
+    #leagueButton:active {
+        border: 1px solid #1B1C21;
+    }
+
+#leagues {
+    background-color: #1B1C21;
+    border: #1B1C21;
+}
+
+#leagueOption {
+    color: #A4A4A4;
+}
+
+    #leagueOption:hover {
+        color: #ffffff;
+        background-color: #1B1C21;
+    }
+
+
+#teamLogo {
+    width: 30px;
+}
+
+#nottinghamLogo {
+    width: 20px;
+}
+
+
+#teamsLogo {
+    width: 60px;
+    margin-top: 10px;
+}
+
+#rankLogo {
+    width: 40px;
+    margin-top: 10px;
+}
+
+.table-container {
+    background-color: #2E3034;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    text-align: center;
+}
+
+#latestMatch {
+    color: white;
+    align-content: flex-start;
+    padding: 10px;
+    background-color: #1B1C21;
+}
+
+#latestMatch2 {
+    color: white;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+#latestHeading {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
